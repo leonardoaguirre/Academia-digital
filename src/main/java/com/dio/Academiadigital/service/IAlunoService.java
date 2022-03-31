@@ -1,6 +1,8 @@
 package com.dio.Academiadigital.service;
 
 import com.dio.Academiadigital.model.Aluno;
+import com.dio.Academiadigital.model.DTO.AlunoForm;
+import com.dio.Academiadigital.model.DTO.AlunoUpdateForm;
 
 import java.util.List;
 

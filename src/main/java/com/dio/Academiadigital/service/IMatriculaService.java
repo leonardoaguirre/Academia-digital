@@ -1,5 +1,6 @@
 package com.dio.Academiadigital.service;
 
+import com.dio.Academiadigital.model.DTO.MatriculaForm;
 import com.dio.Academiadigital.model.Matricula;
 
 import java.util.List;
