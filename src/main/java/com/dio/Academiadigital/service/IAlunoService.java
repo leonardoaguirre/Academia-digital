@@ -1,6 +1,7 @@
 package com.dio.Academiadigital.service;
 
 import com.dio.Academiadigital.model.Aluno;
+import com.dio.Academiadigital.model.AvaliacaoFisica;
 import com.dio.Academiadigital.model.DTO.AlunoForm;
 import com.dio.Academiadigital.model.DTO.AlunoUpdateForm;
 
@@ -16,4 +17,6 @@ public interface IAlunoService {
     Aluno update(Long id, AlunoUpdateForm formUpdate);
 
     void delete(Long id);
+
+    List<AvaliacaoFisica> getAllAvaliacaoFisica(Long id);
 }
