@@ -1,11 +1,12 @@
 spring:
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3308/academia
+    url: jdbc:mysql://localhost:3308/academia?useTimezone=true&serverTimezone=America/Sao_Paulo&characterEncoding=UTF-8&useLegacyDatetimeCode=true&serverTimezone=UTC
     username: root
     password: mysql
   jpa:
-    hibernate:
       hibernate.ddl-auto: update
       generate-ddl: true
       show-sql: true
+      properties:
+        hibernate.format_sql : true
